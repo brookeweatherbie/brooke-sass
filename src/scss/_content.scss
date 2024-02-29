@@ -8,15 +8,26 @@
   min-width: 600px;
   background-color: $secondary-color;
 
-p {
-  width: 55%;
-  min-width: 550px;
-  font-size: 1rem;
-}
+  p {
+    width: 55%;
+    min-width: 550px;
+    /* Changing the font size and line height. */
+    font-size: 1.4rem;
+    line-height: 1.6rem;
+  }
 
-img, video {
-  height: 350px;
-  width: 550px;
-  margin-bottom: 30px;
-}
+  img, video {
+    height: 350px;
+    width: 550px;
+    margin-bottom: 10px;
+  }
+
+  ul {
+    list-style-type: disc;
+    list-style-position: inside;
+  }
+
+  a:hover {
+    color: white;
+  }
 }
